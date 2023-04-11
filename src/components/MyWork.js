@@ -1,10 +1,12 @@
 import React from 'react'
-import Pic01 from '../img/portfolio-01.jpg'
-import Pic02 from '../img/portfolio-02.jpg'
-import Pic03 from '../img/portfolio-03.jpg'
-import Pic04 from '../img/portfolio-04.jpg'
+import Pic01 from '../img/abnb-clone.png'
+import Pic01a from '../img/morning-pg.png'
+import Pic02 from '../img/todolist1.png'
+import Pic03 from '../img/tictactoe.png'
+import Pic04 from '../img/social.png'
 import Pic05 from '../img/portfolio-05.jpg'
 import Pic06 from '../img/portfolio-06.jpg'
+import tenzies from '../img/tenzies.png'
 
 export default function MyWork(){
     return(
@@ -13,19 +15,27 @@ export default function MyWork(){
             <p className="section__subtitle section__subtitle--work">A selection of my range of work</p>
             <div className="portfolio">
                 
-                <a href="portfolio-item.html" className="portfolio__item">
+                <a href="https://itosan2.github.io/tenzies/" className="portfolio__item" target='_blank'>
+                    <img src={tenzies} alt="" className="portfolio__img"/>
+                </a>
+
+                <a href="https://itosan2.github.io/abnb-tut/" className="portfolio__item" target='_blank'>
                     <img src={Pic01} alt="" className="portfolio__img"/>
                 </a>
+
+                <a href="https://itosan2.github.io/morning/" className="portfolio__item" target='_blank'>
+                    <img src={Pic01a} alt="" className="portfolio__img"/>
+                </a>
                 
-                <a href="" className="portfolio__item">
+                <a href="https://itosan2.github.io/todolist1/" className="portfolio__item" target='_blank'>
                     <img src={Pic02} alt="" className="portfolio__img"/>
                 </a>
                 
-                <a href="" className="portfolio__item">
+                <a href="https://itosan2.github.io/tictactoe/" className="portfolio__item" target='_blank'>
                     <img src={Pic03} alt="" className="portfolio__img"/>
                 </a>
                 
-                <a href="" className="portfolio__item">
+                <a href="https://itosan2.github.io/social-accordian/" className="portfolio__item" target='_blank'>
                     <img src={Pic04} alt="" className="portfolio__img"/>
                 </a>
                 
